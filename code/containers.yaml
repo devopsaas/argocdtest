@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: testDeployment
+  name: test-deployment-via-argocd
 spec:
   replicas: 3
   selector:
